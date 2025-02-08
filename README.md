@@ -1,1 +1,3 @@
 # reproductor
+
+¡La música te espera! Con nuestro reproductor web, la tendrás al alcance de un clic. Siente cada nota, cada ritmo, cada melodía con una intensidad sorprendente. ¡Déjate llevar por la magia de la música en línea!¡La música te espera! Con nuestro reproductor web, la tendrás al alcance de un clic. Siente cada nota, cada ritmo, cada melodía con una intensidad sorprendente. ¡Déjate llevar por la magia de la música en línea!
