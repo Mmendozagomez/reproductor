@@ -1,0 +1,40 @@
+* {
+    /* propiedades de espaciado */
+    padding: unset;
+    margin: unset;
+    outline: unset;
+    border: unset;
+    /* la propiedad magica */
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400px;
+}
+body {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(assets/MacBook\ Air\ -\ 1\ body.png);
+    background-size: cover;
+
+
+ul {
+    list-style: none;
+}
+h1 {
+    font-size: 43px;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+
+}
+.prev {
+    background-color: #1d2d4473;
+    color: #ffffff;
+    border-radius: 0px 30px 30px 0px;
+    padding: 10px;
+    
+}
+}
