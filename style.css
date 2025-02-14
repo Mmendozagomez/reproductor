@@ -32,6 +32,18 @@ h1 {
 
 
 }
+.time {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
 .prev {
     display: flex;
     flex-direction: column;
@@ -44,8 +56,19 @@ h1 {
 .reproductor {
     display: flex;
     flex-direction: row;
-    background-color: #1d2d4473;
+    background-color: #748cab70;
+    padding: 20px 40px;
+    border-radius: 30px;
+
     color: #ffffff;
+}
+.texto-reproductor {
+    display: flex;
+    background-color: #1d2d44c0;
+    justify-content: center;
+}
+.album{
+    border-radius: 30px;
 }
 .next{
     display: flex;
