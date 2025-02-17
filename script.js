@@ -15,7 +15,22 @@ const cancion = {
     },
 }
 
-
+const topSong = {
+    _id: '2',
+    author: 'Molotov',
+    title: 'Give me the power',
+    duration: '4:10',
+    audio: {
+        id: '',
+        url: '',
+        filename: ''
+    },
+    image: {
+        id: '',
+        url: '',
+        filename: ''
+    },
+}
 
 
 function crearComponenteCancion(song) {
@@ -30,6 +45,11 @@ function crearComponenteCancion(song) {
     return div
 
 }
+
+document.getElementById('top10').appendChild(
+    crearComponenteCancion(topSong)
+
+)
 
 document.getElementById('container').appendChild(
     crearComponenteCancion(cancion)
