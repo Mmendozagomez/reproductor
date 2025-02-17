@@ -67,11 +67,11 @@ header img {
     display: flex;
     flex-direction: column;
     background-color: #1d2d4473;
-    color: #ffffff;
     border-radius: 0px 30px 30px 0px;
     padding: 10px;
     justify-content: center;
     gap: 20px;
+    color: #CAD7FF;
 }
 .reproductor {
     display: flex;
@@ -81,7 +81,6 @@ header img {
  
     
 
-    color: #ffffff;
 }
 .centroReproductor {
     display: flex;
@@ -106,33 +105,32 @@ header img {
     display: flex;
     flex-direction: column;
     background-color: #1d2d4473;
-    color: #ffffff;
     border-radius: 30px 0px 0px 30px;
     padding: 10px;
     justify-content: center;
     gap: 20px;
+    color: #CAD7FF;
 }
 .listas{
     display: flex;
     justify-content: center;
     gap: 150px;
+    padding: 60px;
 
 }
 .playlist{
-    background-color: #748cab56;
+    background-color: #1d2d44c0;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     padding: 20px 60px;
     align-items:center ;
 }
 .top{
-    background-color: #748cab56;
+    background-color:#1d2d44c0;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     padding: 20px 60px;
     align-items:center ;
 }
@@ -141,5 +139,21 @@ header img {
 }
 .cancion img{
     border-radius: 300px;
+}
+footer {
+    background-color: #1d2d44c0;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    gap: 20px;
+}
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerLogo img{
+        height: 50px;
+        width: 50px;
 }
 }
