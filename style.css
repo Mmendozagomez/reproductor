@@ -10,7 +10,7 @@
     font-weight: 400;
 }
 body {
-    color: #ffffff;
+    color: #CAD7FF;
     font-family: Rubik,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image:url(assets/MacBook\ Air\ -\ 1\ body.png);
     background-size: cover;
@@ -22,6 +22,7 @@ ul {
 h1 {
     font-size: 43px;
 
+
 }
 header img {
     height: 50px;
@@ -32,7 +33,9 @@ header img {
 .encabezado {
     display: flex;
     padding: 60px 0px;
-    justify-content: center;
+    justify-content: start;
+    padding: 60px;
+
 }
 
 .player {
@@ -72,7 +75,7 @@ header img {
 }
 .reproductor {
     display: flex;
-    background-color: #748cab70;
+    background-color: #748cab56;
     padding: 20px 40px;
     border-radius: 30px 0px 0px 30px;
  
@@ -116,7 +119,7 @@ header img {
 
 }
 .playlist{
-    background-color: #748cab70;
+    background-color: #748cab56;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -125,7 +128,7 @@ header img {
     align-items:center ;
 }
 .top{
-    background-color: #748cab70;
+    background-color: #748cab56;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
