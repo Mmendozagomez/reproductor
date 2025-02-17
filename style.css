@@ -14,7 +14,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image:url(assets/MacBook\ Air\ -\ 1\ body.png);
     background-size: cover;
-
+    
 
 ul {
     list-style: none;
@@ -30,6 +30,7 @@ h1 {
     flex-direction: row;
     gap: 30px;
     justify-content: space-between;
+    padding: 0 0 60px 0px;
 
 
 
@@ -101,8 +102,31 @@ h1 {
 .listas{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 150px;
 
 }
-
+.playlist{
+    background-color: #748cab70;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 60px;
+    align-items:center ;
+}
+.top{
+    background-color: #748cab70;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 60px;
+    align-items:center ;
+}
+.listas h2 {
+    font-weight: 600;
+}
+.cancion img{
+    border-radius: 300px;
+}
 }
