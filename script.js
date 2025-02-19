@@ -25,13 +25,47 @@ function crearComponenteCancion(song) {
 
     div.setAttribute('class', 'cancion')
     div.innerHTML = `
-        <div><img src="" alt=""></div>
-        <p>${song.title}</p>
-        <p>${song.author}</p>
+        <div><img src="${song.image.url}" alt=""></div>
+        <div><p>${song.title}</p>
+        <p>${song.author}</p></div>
     `
+    div.addEventListener("click",function(){
+        
+        document.getElementById("audio")
+            .setAttribute("src", song.audio.url)
+
+        document.getElementById("imagen")
+            .setAttribute("src", song.image.url)
+        
+        document.getElementById("title") 
+            .innerHTML = song.title
+        
+        document.getElementById("author")
+            .innerHTML = song.author
+        
+        document.getElementById("album")
+            .innerHTML = song.album
+
+        document.getElementById("duration")
+            .innerHTML = song.duration
+
+    })
+
     return div
 
 }
+
+const audio = document.getElementById("audio")
+
+
+document.getElementById("play-button").addEventListener("click", function(){
+   
+    if(audio.paused){
+        audio.play()
+    } else {
+        audio.pause()
+    }
+})
 
 
 
