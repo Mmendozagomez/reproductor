@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor</title>
+
+
+    <meta name="keywords"
+        content="reproductor de música online, reproductor web, música online, escuchar música online, streaming de música, música en línea, música por internet, audio online, reproductor de audio online, música en directo">
+    <meta name="description"
+        content="Sumérgete en un mundo de sonido con nuestro reproductor de audio online. Reproduce tus canciones, crea playlists, descubre nueva música y comparte con amigos. Compatible con todos los dispositivos. ¡La mejor experiencia musical en la web!">
+    <meta property="og:title" content="Reproductor" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/—Pngtree—sound wave shape changes_20082827.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div>
+        <!-- Upper part -->
+        <header>
+            <div class="encabezado">
+            <img src="assets/—Pngtree—sound wave shape changes_20082827.png" alt="">
+            <h1>Aural</h1>
+            </div>
+        </header>
+        <section>
+            <div class="player">
+                <button class="prev">
+                    <p>Next Song</p>
+                    <p>Title</p>
+                    <p>Artist</p>
+                </button>
+                <div class="centroReproductor">
+
+                <div class="reproductor">
+                    <div class="album">
+                        <img id="imagen" src="assets/Rectangle 1 img.png" alt="">
+                    </div>
+
+                   
+                </div>
+                <div class="musica">
+                    <div class="texto-reproductor">
+                        <p id="title">Title</p>
+                        <p id="author">Artist</p>
+                        <p id="album"> album</p>
+                    </div>
+
+                    <div class="icons">
+                        <img src="assets/prev.svg" alt="">
+                        <img id="play-button" src="assets/play.svg" alt="">
+                        <img src="assets/pausa.svg" alt="">
+                        <img src="assets/next.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/Frame 28 div.svg" alt="">
+                        <div class="time">
+                            <p>0:00</p>
+                            <p id="duration">3:00</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                </div>
+                <button class="next">
+                <p>Next Song</p>
+                <p>Title</p>
+                <p>Artist</p>
+            </button>
+            </div>
+
+
+    
+    </section>
+
+    <!-- Down part -->
+    <div class="listas">
+        <section>
+            <div class="playlist">
+                <h2>Playlist</h2>
+                <div id="container">
+                </div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div class="top">
+            <h2>Top 10</h2>
+            <div id="top10">
+                <div class="topsong">
+                </div>
+            </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footerLogo">
+        <img src="assets/—Pngtree—sound wave shape changes_20082827.png" alt="">
+        <h3>Aural</h3>
+        </div>
+        <p>© 2025 Aural</p>
+
+        <audio src="" autoplay id="audio"></audio>
+    </footer>
+</div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

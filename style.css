@@ -1,0 +1,169 @@
+* {
+    /* propiedades de espaciado */
+    padding: unset;
+    margin: unset;
+    outline: unset;
+    border: unset;
+    /* la propiedad magica */
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+}
+body {
+    color: #CAD7FF;
+    font-family: Rubik,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(assets/MacBook\ Air\ -\ 1\ body.png);
+    background-size: cover;
+    
+
+ul {
+    list-style: none;
+}
+h1 {
+    font-size: 43px;
+
+
+}
+header img {
+    height: 50px;
+    width: 60px;
+       
+    
+}
+.encabezado {
+    display: flex;
+    padding: 60px 0px;
+    justify-content: start;
+    padding: 60px;
+
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 0 0 60px 0px;
+
+
+
+
+}
+.time {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+
+}
+.prev {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d2d4473;
+    border-radius: 0px 30px 30px 0px;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    color: #CAD7FF;
+}
+.reproductor {
+    display: flex;
+    background-color: #748cab56;
+    padding: 20px 40px;
+    border-radius: 30px 0px 0px 30px;
+ 
+    
+
+}
+
+}
+.centroReproductor {
+    display: flex;
+
+}
+.musica {
+    background-color: #1d2d44c0;
+    padding: 20px 40px;
+    border-radius: 0px 30px 30px 0px;
+}
+.texto-reproductor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.album{
+    border-radius: 30px;
+}
+.next{
+    display: flex;
+    flex-direction: column;
+    background-color: #1d2d4473;
+    border-radius: 30px 0px 0px 30px;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    color: #CAD7FF;
+}
+.listas{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 60px;
+
+}
+.playlist{
+    background-color: #1d2d44c0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    align-items:center ;
+}
+.top{
+    background-color:#1d2d44c0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    align-items:center ;
+}
+.listas h2 {
+    font-weight: 600;
+}
+.cancion {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.cancion img{
+    border-radius: 300px;
+    height: 32px;
+    width: 32px;
+}
+footer {
+    background-color: #1d2d44c0;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    gap: 20px;
+}
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerLogo img{
+        height: 50px;
+        width: 50px;
+}
